@@ -60,7 +60,6 @@ const props = defineProps({
     type: Object,
     required: true
   },
-  userBubbles: Array,
 })
 
 const searchBubble = ref(null)
@@ -77,8 +76,8 @@ const userProfile = async() => {
 userProfile()
 
 const bubbles = computed(() => {
-  console.log('comp ', props.userBubbles)
-  const bubbles = props.userBubbles
+  console.log('comp ', store.getters["bubbles/getUserBubbles"])
+  const bubbles = store.getters["bubbles/getUserBubbles"]
   if (searchBubble.value) return bubbles?.filter((bubble) => bubble.title.toLowerCase().includes(searchBubble.value.toLowerCase()))
   return bubbles || []
 })

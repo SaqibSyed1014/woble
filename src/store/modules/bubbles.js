@@ -2,7 +2,7 @@ import BubbleServices from "../../services/BubbleServices";
 import {router} from "../../router";
 
 const getDefaultState = () =>  ({
-    userBubbles: JSON.parse(localStorage.getItem('userData'))?.bubbles,
+    userBubbles: [],
     specificBubble: {},
     allBubbles: [],
     page: 1,
