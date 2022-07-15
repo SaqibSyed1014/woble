@@ -2,7 +2,7 @@
   <div>
     <div class="grid grid-rows-2 grid-cols-1 md:grid-rows-1 md:grid-cols-2 justify-between items-center">
       <h1 class="text-center md:text-left text-3xl md:text-4xl font-black mb-3 mb:mb-0">
-        Choose your Bubble
+        Choose your Bubbleyy
       </h1>
 
       <div class="flex items-center">
