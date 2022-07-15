@@ -74,7 +74,6 @@ const actions = {
 const mutations = {
     setBubbles(state, payload) {
         state.userBubbles = payload.bubbles
-        console.log('bubble mut ', state.userBubbles)
         localStorage.setItem('userData', JSON.stringify(payload))
     },
     setSpecificBubble(state, payload) {
@@ -101,7 +100,6 @@ const mutations = {
 
 const getters = {
     getUserBubbles (state) {
-        console.log('bubble getter ', state.userBubbles)
         return state.userBubbles
     },
     getAllBubbles (state) {

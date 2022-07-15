@@ -76,7 +76,6 @@ const userProfile = async() => {
 userProfile()
 
 const bubbles = computed(() => {
-  console.log('comp ', store.getters["bubbles/getUserBubbles"])
   const bubbles = store.getters["bubbles/getUserBubbles"]
   if (searchBubble.value) return bubbles?.filter((bubble) => bubble.title.toLowerCase().includes(searchBubble.value.toLowerCase()))
   return bubbles || []
