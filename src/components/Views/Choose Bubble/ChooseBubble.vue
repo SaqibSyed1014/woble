@@ -78,7 +78,7 @@ userProfile()
 const bubbles = computed(() => {
   const bubbles = store.getters["bubbles/getUserBubbles"]
   if (searchBubble.value) return bubbles?.filter((bubble) => bubble.title.toLowerCase().includes(searchBubble.value.toLowerCase()))
-  return bubbles || []
+  return bubbles
 })
 
 const viewBubbleDetails = (bubble) => {
