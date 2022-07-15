@@ -58,6 +58,7 @@ const mutations = {
             localStorage.setItem('token', payload.token)
         }
         state.userData = payload.data
+        console.log('user mut ', state.userData)
         localStorage.setItem('userData', JSON.stringify(payload.data))
     },
     removeUser(state) {

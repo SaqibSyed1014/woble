@@ -20,5 +20,8 @@ import { store } from "../../store";
 
 const publicPath = import.meta.env.BASE_URL
 const userData = computed(() => JSON.parse(JSON.stringify(store.getters["auth/getUserData"])))
-const bubbles = computed(() => store.getters["bubbles/getUserBubbles"])
+const bubbles = computed(() => {
+  console.log('home comp ', store.getters["bubbles/getUserBubbles"])
+  return store.getters["bubbles/getUserBubbles"]
+})
 </script>
