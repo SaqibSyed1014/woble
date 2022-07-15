@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="130.667" height="130.667" viewBox="0 0 130.667 130.667">
+  <defs>
+    <filter id="Ellipse_17" x="0" y="0" width="130.667" height="130.667" filterUnits="userSpaceOnUse">
+      <feOffset dy="6.137" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5.111" result="blur"/>
+      <feFlood flood-color="#502590" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_88" data-name="Group 88" transform="translate(-4198.602 -3406.212)">
+    <g transform="matrix(1, 0, 0, 1, 4198.6, 3406.21)" filter="url(#Ellipse_17)">
+      <circle id="Ellipse_17-2" data-name="Ellipse 17" cx="50" cy="50" r="50" transform="translate(15.33 9.2)" fill="#3a018a"/>
+    </g>
+    <g id="Group_87" data-name="Group 87">
+      <line id="Line_6" data-name="Line 6" x2="35.279" transform="translate(4246.296 3455.608)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3.636"/>
+      <line id="Line_7" data-name="Line 7" x2="7.595" transform="translate(4246.296 3465.408)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3.636"/>
+      <line id="Line_8" data-name="Line 8" x2="21.437" transform="translate(4260.138 3465.408)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3.636"/>
+      <line id="Line_9" data-name="Line 9" x2="35.279" transform="translate(4246.296 3475.208)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3.636"/>
+    </g>
+  </g>
+</svg>
